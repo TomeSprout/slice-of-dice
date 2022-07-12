@@ -1,0 +1,7 @@
+[gd_scene format=2]
+
+[node name="TextEdit" type="TextEdit"]
+margin_right = 412.0
+margin_bottom = 65.0
+text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Donec et odio pellentesque diam volutpat."
+wrap_enabled = true

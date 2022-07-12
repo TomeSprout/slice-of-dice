@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=2]
+
+[sub_resource type="Gradient" id=3]
+offsets = PoolRealArray( 0, 0.0153846, 0.989744, 1 )
+colors = PoolColorArray( 0.167969, 0.0734863, 0.0734863, 1, 0.0650635, 0.0736923, 0.203125, 1, 0.338646, 0.307617, 0.875, 1, 1, 1, 1, 1 )
+
+[sub_resource type="GradientTexture" id=2]
+gradient = SubResource( 3 )
+
+[node name="Hand_Card2" type="Node2D"]
+
+[node name="Sprite" type="Sprite" parent="."]
+scale = Vector2( 0.128174, 385.5 )
+texture = SubResource( 2 )
