@@ -21,14 +21,17 @@
 
 extends Label
 
+
 var drawTextSpeed: int = 0
 var drawTextLimit: int = 1000
+
 
 func _ready() -> void:
 	pass
 
 
-func _process(delta: float) -> void:
+func _process(_delta: float) -> void:
+	text_manip()
 	show_text_scroll()
 
 
@@ -38,3 +41,6 @@ func show_text_scroll() -> void:
 		self.visible_characters = drawTextSpeed
 #		yield(get_tree().create_timer(1000.0), "timeout")
 
+
+func text_manip() -> void:
+	self.text = GamepathTextStore.test_text_01
