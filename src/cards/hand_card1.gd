@@ -9,6 +9,8 @@ func _ready() -> void:
 
 
 func _process(delta: float) -> void:
+	if(_on_mouse_entered()):
+		_animation_player.play('Card Float')
 	if Input.is_action_just_pressed('ui_down'):
 		_animation_player.play('Card Float')
 	elif Input.is_action_just_pressed('ui_up'):
@@ -16,7 +18,7 @@ func _process(delta: float) -> void:
 
 
 func _on_mouse_entered() -> void:
-	_animation_player.play('Card Float')
+	pass
 
 
 func _on_mouse_exited() -> void:
