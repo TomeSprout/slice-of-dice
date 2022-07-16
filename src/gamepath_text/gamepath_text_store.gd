@@ -1,26 +1,7 @@
-# Code Order
-#
-# tool
-# class_name
-# extends
-# docstring
-#
-# signals
-# enums
-# constants
-# exported variables
-# private variables
-# onready variables
-#
-# optional built-in virtual _init method
-# built-in virtual _ready method
-# remaining built-in virtual methods
-# public methods
-# private methods
-
 class_name GamePathText
 
 extends Node
+
 
 const test_text_01 = 'TEST 01'
 const test_text_02 = 'TEST 02'
@@ -40,10 +21,3 @@ const text_p2_outcome_02 = 'commodo quis imperdiet massa tincidunt nunc pulvinar
 const text_p2_outcome_03 = 'fames ac turpis egestas integer eget aliquet'
 const text_p2_outcome_04 = 'sit amet purus gravida quis blandit turpis'
 const text_p2_outcome_05 = 'dictumst quisque sagittis purus sit amet volutpat'
-
-func _ready() -> void:
-	pass
-
-
-#func _process(delta: float) -> void:
-#	pass
