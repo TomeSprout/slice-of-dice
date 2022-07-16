@@ -24,6 +24,10 @@ config/name="Deck Trek"
 run/main_scene="res://src/stages/Level1.tscn"
 config/icon="res://icon.png"
 
+[autoload]
+
+GamepathTextStore="*res://src/gamepath_text/gamepath_text_store.gd"
+
 [physics]
 
 common/enable_pause_aware_picking=true
