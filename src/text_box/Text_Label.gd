@@ -43,4 +43,4 @@ func show_text_scroll() -> void:
 
 
 func text_manip() -> void:
-	self.text = GamepathTextStore.test_text_01
+	self.text = GamepathTextStore.text_p0_intro_01
