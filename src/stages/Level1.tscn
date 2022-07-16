@@ -1,9 +1,9 @@
 [gd_scene load_steps=7 format=2]
 
-[ext_resource path="res://src/deck/hand_card1.tscn" type="PackedScene" id=1]
-[ext_resource path="res://src/deck/hand_card3.tscn" type="PackedScene" id=2]
-[ext_resource path="res://src/deck/hand_card2.tscn" type="PackedScene" id=3]
-[ext_resource path="res://src/text_box/text_display.tscn" type="PackedScene" id=4]
+[ext_resource path="res://src/cards/hand_card1.tscn" type="PackedScene" id=1]
+[ext_resource path="res://src/cards/hand_card3.tscn" type="PackedScene" id=2]
+[ext_resource path="res://src/cards/hand_card2.tscn" type="PackedScene" id=3]
+[ext_resource path="res://src/text_box/textbox_display.tscn" type="PackedScene" id=4]
 
 [sub_resource type="Gradient" id=1]
 colors = PoolColorArray( 0, 0, 0, 1, 0.460938, 0.460938, 0.460938, 1 )
@@ -27,16 +27,18 @@ position = Vector2( 506, 467 )
 [node name="Hand_Card3" parent="Hand Display" instance=ExtResource( 2 )]
 position = Vector2( 727, 494 )
 rotation = 0.261799
-scale = Vector2( 1, 1 )
 
-[node name="Text Display" type="Node2D" parent="."]
+[node name="Node2D" parent="." instance=ExtResource( 4 )]
 
-[node name="TextEdit" parent="Text Display" instance=ExtResource( 4 )]
-margin_left = 48.0
-margin_top = 36.0
-margin_right = 598.0
-margin_bottom = 107.0
-rect_scale = Vector2( 1.68, 1.72 )
+[node name="Panel" parent="Node2D" index="0"]
+margin_right = 1024.0
+margin_bottom = 159.0
+
+[node name="Label" parent="Node2D/Panel" index="0"]
+margin_left = 17.0
+margin_top = 17.0
+margin_right = 1008.0
+margin_bottom = 144.0
 
 [node name="Background" type="TextureRect" parent="."]
 margin_right = 1124.0
@@ -44,3 +46,4 @@ margin_bottom = 698.0
 texture = SubResource( 2 )
 
 [editable path="Hand Display/Hand_Card1"]
+[editable path="Node2D"]

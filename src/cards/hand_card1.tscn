@@ -1,6 +1,6 @@
 [gd_scene load_steps=7 format=2]
 
-[ext_resource path="res://src/deck/hand_card1.gd" type="Script" id=1]
+[ext_resource path="res://src/cards/hand_card1.gd" type="Script" id=1]
 
 [sub_resource type="Gradient" id=3]
 offsets = PoolRealArray( 0, 0.00512821, 0.989744, 1 )
