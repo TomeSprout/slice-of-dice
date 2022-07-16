@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/playing_card_single_place_down_on_table.mp3-eff68b50142a3af7ce1aa9312dd0982a.mp3str"
+
+[deps]
+
+source_file="res://src/sounds/playing_card_single_place_down_on_table.mp3"
+dest_files=[ "res://.import/playing_card_single_place_down_on_table.mp3-eff68b50142a3af7ce1aa9312dd0982a.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0
