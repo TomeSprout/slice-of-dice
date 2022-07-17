@@ -23,15 +23,16 @@ extends Label
 
 
 var drawTextSpeed: int = 0
-var drawTextLimit: int = 1000
+var drawTextLimit: int = 200
 
 
 func _ready() -> void:
+	self.text = GamepathTextStore.text_p0_intro_01
 	pass
 
 
 func _process(_delta: float) -> void:
-	text_manip()
+#	text_manip()
 	show_text_scroll()
 
 
@@ -43,4 +44,5 @@ func show_text_scroll() -> void:
 
 
 func text_manip() -> void:
-	self.text = GamepathTextStore.text_p0_intro_01
+	pass
+#	self.text = GamepathTextStore.text_p0_intro_01
