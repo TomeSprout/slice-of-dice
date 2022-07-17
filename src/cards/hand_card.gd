@@ -13,7 +13,8 @@ func _ready() -> void:
 
 
 func _process(_delta: float) -> void:
-	play_sounds()
+#	play_sounds()
+	pass
 #	snd_HandlePlayingCard.play(0.0)
 
 
