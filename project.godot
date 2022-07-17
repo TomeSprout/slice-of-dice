@@ -20,13 +20,18 @@ _global_script_class_icons={
 
 [application]
 
-config/name="Deck Trek"
+config/name="Slice of Dice"
 run/main_scene="res://src/stages/Level1.tscn"
 config/icon="res://icon.png"
 
 [autoload]
 
 GamepathTextStore="*res://src/gamepath_text/gamepath_text_store.gd"
+
+[display]
+
+window/size/resizable=false
+window/size/borderless=true
 
 [physics]
 
