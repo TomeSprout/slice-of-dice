@@ -35,14 +35,12 @@ rotation = 0.261799
 [node name="Node2D" parent="." instance=ExtResource( 4 )]
 
 [node name="Panel" parent="Node2D" index="0"]
-margin_right = 1024.0
 margin_bottom = 159.0
 
 [node name="Label" parent="Node2D/Panel" index="0"]
 margin_left = 17.0
 margin_top = 17.0
-margin_right = 1008.0
-margin_bottom = 144.0
+margin_bottom = 128.0
 
 [node name="Background" type="TextureRect" parent="."]
 margin_right = 1124.0
