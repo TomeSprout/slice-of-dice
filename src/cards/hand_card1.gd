@@ -8,7 +8,7 @@ func _ready() -> void:
 	pass
 
 
-func _process(delta: float) -> void:
+func _process(_delta: float) -> void:
 	if(_on_mouse_entered()):
 		_animation_player.play('Card Float')
 	if Input.is_action_just_pressed('ui_down'):
