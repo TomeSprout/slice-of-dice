@@ -2,7 +2,6 @@ extends Node2D
 
 
 onready var anim_player: = $AnimationPlayer as AnimationPlayer
-onready var snd_HandlePlayingCard: = $HandlePlayingCard as AudioStreamPlayer2D
 onready var TestSound: = $SoundHandleCard as AudioStreamPlayer
 
 var num: int = 0
