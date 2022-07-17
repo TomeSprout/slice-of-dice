@@ -31,7 +31,6 @@ GamepathTextStore="*res://src/gamepath_text/gamepath_text_store.gd"
 [display]
 
 window/size/resizable=false
-window/size/borderless=true
 
 [physics]
 
