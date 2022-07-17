@@ -8,7 +8,7 @@ const test_text_02 = 'TEST 02'
 
 const player_init = 'What will you do?'
 
-const text_p0_intro_01 = 'est ante in nibh mauris cursus mattis molestie a iaculis'
+const text_p0_intro_01 = 'est ante in nibh mauris cursus mattis molestie a iaculis est ante in nibh mauris cursus mattis molestie a iaculis'
 const text_p0_intro_02 = 'est ante in nibh mauris cursus mattis molestie a iaculis'
 
 const text_p1_dice_01 = 'dolor morbi non arcu risus quis varius quam quisque id'
